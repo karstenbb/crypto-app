@@ -1,0 +1,9 @@
+{
+  "name": "crypto-app",
+  "version": "1.0.0",
+  "description": "appp",
+  "main": "app.js",
+  "repository": "https://github.com/karstenbb/crypto-app",
+  "author": "Karsten Bjelde <fotball-karsten@hotmail.com>",
+  "license": "MIT"
+}
