@@ -61,9 +61,10 @@ width: 240px;
 
 }
 .red {
-
+width: 100%;
 color: #f00606;
 }
 .green {
+    width: 100%;
     color: #11d811;
 }
