@@ -1,6 +1,9 @@
 .coin-container {
-    display:flex;
-    justify-content: center;
+    
+    display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0 1rem;
 }
 
 .coin-row {
@@ -39,10 +42,11 @@ height: 30px;
 }
 
 .coin-data {
-    display:flex;
-    text-align: center;
-    justify-content: space-between;
-    width: 100%;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
 }
 .coin-price {
     width: 100%;
@@ -68,4 +72,19 @@ color: #f00606;
 .green {
     width: 100%;
     color: #11d811;
+}
+
+@media only screen and (max-width: 600px) {
+    .coin-symbol {
+            display: none;
+        }
+                .coin-marketcap {
+                   display: none;
+                }
+.coin-volume {
+    display: none;
+}
+.coin-price {
+    min-width: 0;
+}
 }
